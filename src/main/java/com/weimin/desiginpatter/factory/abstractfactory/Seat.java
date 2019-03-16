@@ -1,4 +1,4 @@
-package com.weimin.desiginpattern.factory.abstractfactory;
+package com.weimin.desiginpatter.factory.abstractfactory;
 
 /**
  * Seat class

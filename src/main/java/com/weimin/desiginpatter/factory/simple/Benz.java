@@ -1,4 +1,4 @@
-package com.weimin.desiginpattern.factory.method;
+package com.weimin.desiginpatter.factory.simple;
 
 /**
  * Benz class

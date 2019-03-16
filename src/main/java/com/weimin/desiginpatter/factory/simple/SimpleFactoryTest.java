@@ -1,4 +1,4 @@
-package com.weimin.desiginpattern.factory.simple;
+package com.weimin.desiginpatter.factory.simple;
 
 /**
  * SimpleFactoryTest class
