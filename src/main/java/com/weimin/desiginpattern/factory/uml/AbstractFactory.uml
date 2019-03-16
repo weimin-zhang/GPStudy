@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.weimin.desiginpattern.factory.abstractfactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="635.9662857142856" y="11.0">com.weimin.desiginpattern.factory.abstractfactory.Tyre</node>
+    <node x="10.5" y="184.0">com.weimin.desiginpattern.factory.abstractfactory.LuxuryEngine</node>
+    <node x="942.9273333333333" y="195.0">com.weimin.desiginpattern.factory.abstractfactory.LuxurySeat</node>
+    <node x="501.78247619047613" y="173.0">com.weimin.desiginpattern.factory.abstractfactory.CarFactory</node>
+    <node x="366.3173333333331" y="378.0">com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory</node>
+    <node x="725.7824761904761" y="195.0">com.weimin.desiginpattern.factory.abstractfactory.LowTyre</node>
+    <node x="1011.8948571428571" y="11.0">com.weimin.desiginpattern.factory.abstractfactory.Seat</node>
+    <node x="1125.9273333333333" y="195.0">com.weimin.desiginpattern.factory.abstractfactory.LowSeat</node>
+    <node x="450.28247619047613" y="523.0">com.weimin.desiginpattern.factory.abstractfactory.AbstractFactoryTest</node>
+    <node x="689.3173333333332" y="378.0">com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory</node>
+    <node x="328.78247619047613" y="195.0">com.weimin.desiginpattern.factory.abstractfactory.LuxuryTyre</node>
+    <node x="170.78247619047613" y="184.0">com.weimin.desiginpattern.factory.abstractfactory.LowEngine</node>
+    <node x="107.46628571428573" y="0.0">com.weimin.desiginpattern.factory.abstractfactory.Engine</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.CarFactory">
+      <point x="29.14285714285711" y="-47.5" />
+      <point x="497.46019047619023" y="318.0" />
+      <point x="552.7824761904761" y="318.0" />
+      <point x="-51.0" y="47.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Seat">
+      <point x="58.285714285714334" y="-47.5" />
+      <point x="849.6030476190474" y="348.0" />
+      <point x="1115.4273333333333" y="348.0" />
+      <point x="1115.4273333333333" y="153.0" />
+      <point x="1106.394857142857" y="153.0" />
+      <point x="13.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Engine">
+      <point x="-58.285714285714334" y="-47.5" />
+      <point x="410.0316190476188" y="348.0" />
+      <point x="157.99999999999994" y="348.0" />
+      <point x="157.99999999999994" y="153.0" />
+      <point x="164.549619047619" y="153.0" />
+      <point x="-11.416666666666742" y="36.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryTyre" target="com.weimin.desiginpattern.factory.abstractfactory.Tyre">
+      <point x="-5.6843418860808015E-14" y="-25.5" />
+      <point x="404.7824761904761" y="103.0" />
+      <point x="648.6329523809522" y="103.0" />
+      <point x="-63.33333333333337" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.CarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Tyre">
+      <point x="0.0" y="-47.5" />
+      <point x="603.7824761904761" y="123.0" />
+      <point x="699.299619047619" y="123.0" />
+      <point x="-12.666666666666629" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Tyre">
+      <point x="0.0" y="-47.5" />
+      <point x="468.3173333333331" y="358.0" />
+      <point x="491.28247619047613" y="358.0" />
+      <point x="491.28247619047613" y="113.0" />
+      <point x="673.9662857142856" y="113.0" />
+      <point x="-38.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.AbstractFactoryTest" target="com.weimin.desiginpattern.factory.abstractfactory.Engine">
+      <point x="-73.60000000000002" y="-25.5" />
+      <point x="468.6824761904761" y="503.0" />
+      <point x="0.0" y="503.0" />
+      <point x="0.0" y="143.0" />
+      <point x="118.88295238095247" y="143.0" />
+      <point x="-57.08333333333326" y="36.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.CarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Seat">
+      <point x="68.0" y="-47.5" />
+      <point x="671.7824761904761" y="133.0" />
+      <point x="1025.394857142857" y="133.0" />
+      <point x="-67.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowTyre" target="com.weimin.desiginpattern.factory.abstractfactory.Tyre">
+      <point x="0.0" y="-25.5" />
+      <point x="801.7824761904761" y="123.0" />
+      <point x="724.6329523809522" y="123.0" />
+      <point x="12.666666666666629" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.CarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Engine">
+      <point x="-68.0" y="-47.5" />
+      <point x="535.7824761904761" y="93.0" />
+      <point x="233.049619047619" y="93.0" />
+      <point x="57.08333333333326" y="36.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.CarFactory">
+      <point x="-29.142857142857224" y="-47.5" />
+      <point x="762.1744761904758" y="288.0" />
+      <point x="654.7824761904761" y="288.0" />
+      <point x="51.0" y="47.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.AbstractFactoryTest" target="com.weimin.desiginpattern.factory.abstractfactory.Tyre">
+      <point x="36.799999999999955" y="-25.5" />
+      <point x="579.0824761904761" y="493.0" />
+      <point x="921.4273333333333" y="493.0" />
+      <point x="921.4273333333333" y="103.0" />
+      <point x="775.2996190476189" y="103.0" />
+      <point x="63.33333333333326" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxurySeat" target="com.weimin.desiginpattern.factory.abstractfactory.Seat">
+      <point x="0.0" y="-25.5" />
+      <point x="1023.9273333333333" y="153.0" />
+      <point x="1079.394857142857" y="153.0" />
+      <point x="-13.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.AbstractFactoryTest" target="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory">
+      <point x="-36.799999999999955" y="-25.5" />
+      <point x="505.4824761904762" y="493.0" />
+      <point x="417.3173333333331" y="493.0" />
+      <point x="-51.0" y="47.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.LuxuryTyre">
+      <point x="-29.142857142857167" y="-47.5" />
+      <point x="439.17447619047596" y="338.0" />
+      <point x="404.78247619047613" y="338.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.LuxurySeat">
+      <point x="87.42857142857144" y="-47.5" />
+      <point x="555.7459047619045" y="338.0" />
+      <point x="1023.9273333333333" y="338.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.AbstractFactoryTest" target="com.weimin.desiginpattern.factory.abstractfactory.Seat">
+      <point x="73.60000000000002" y="-25.5" />
+      <point x="615.8824761904762" y="503.0" />
+      <point x="1298.4273333333333" y="503.0" />
+      <point x="1298.4273333333333" y="143.0" />
+      <point x="1160.394857142857" y="143.0" />
+      <point x="67.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryEngine" target="com.weimin.desiginpattern.factory.abstractfactory.Engine">
+      <point x="0.0" y="-36.5" />
+      <point x="79.0" y="153.0" />
+      <point x="141.71628571428573" y="153.0" />
+      <point x="-34.25" y="36.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowEngine" target="com.weimin.desiginpattern.factory.abstractfactory.Engine">
+      <point x="0.0" y="-36.5" />
+      <point x="239.28247619047613" y="153.0" />
+      <point x="187.38295238095247" y="153.0" />
+      <point x="11.416666666666742" y="36.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Tyre">
+      <point x="29.14285714285711" y="-47.5" />
+      <point x="820.4601904761903" y="318.0" />
+      <point x="895.7824761904761" y="318.0" />
+      <point x="895.7824761904761" y="113.0" />
+      <point x="749.9662857142856" y="113.0" />
+      <point x="38.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.LowTyre">
+      <point x="0.0" y="-47.5" />
+      <point x="791.3173333333332" y="318.0" />
+      <point x="801.7824761904761" y="318.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowSeat" target="com.weimin.desiginpattern.factory.abstractfactory.Seat">
+      <point x="0.0" y="-25.5" />
+      <point x="1206.9273333333333" y="153.0" />
+      <point x="1133.394857142857" y="153.0" />
+      <point x="40.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.LowEngine">
+      <point x="-87.42857142857144" y="-47.5" />
+      <point x="703.8887619047616" y="308.0" />
+      <point x="239.28247619047613" y="308.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Engine">
+      <point x="-58.285714285714334" y="-47.5" />
+      <point x="733.0316190476187" y="298.0" />
+      <point x="318.28247619047613" y="298.0" />
+      <point x="318.28247619047613" y="143.0" />
+      <point x="210.21628571428573" y="143.0" />
+      <point x="34.25" y="36.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.Seat">
+      <point x="58.28571428571422" y="-47.5" />
+      <point x="526.6030476190474" y="328.0" />
+      <point x="932.4273333333333" y="328.0" />
+      <point x="932.4273333333333" y="143.0" />
+      <point x="1052.394857142857" y="143.0" />
+      <point x="-40.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LowCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.LowSeat">
+      <point x="87.42857142857144" y="-47.5" />
+      <point x="878.7459047619045" y="358.0" />
+      <point x="1206.9273333333333" y="358.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.abstractfactory.LuxuryCarFactory" target="com.weimin.desiginpattern.factory.abstractfactory.LuxuryEngine">
+      <point x="-87.42857142857144" y="-47.5" />
+      <point x="380.8887619047617" y="358.0" />
+      <point x="79.0" y="358.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="539.5" y="387.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
