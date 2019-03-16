@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.weimin.desiginpattern.factory.method.Car</OriginalElement>
+  <nodes>
+    <node x="-183.0" y="-121.0">com.weimin.desiginpattern.factory.method.CarFactory</node>
+    <node x="-77.43181818181819" y="-232.0">com.weimin.desiginpattern.factory.method.Car</node>
+    <node x="-28.5" y="81.0">com.weimin.desiginpattern.factory.method.MethodFactoryTest</node>
+    <node x="-1.0" y="-121.0">com.weimin.desiginpattern.factory.method.Benz</node>
+    <node x="-24.21212121212119" y="-20.0">com.weimin.desiginpattern.factory.method.BenzFactory</node>
+    <node x="-333.0" y="-121.0">com.weimin.desiginpattern.factory.method.BMW</node>
+    <node x="-276.0833333333333" y="-20.0">com.weimin.desiginpattern.factory.method.BMWFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.weimin.desiginpattern.factory.method.BenzFactory" target="com.weimin.desiginpattern.factory.method.CarFactory">
+      <point x="-54.0" y="-25.5" />
+      <point x="2.7878787878788103" y="-45.0" />
+      <point x="-61.5" y="-45.0" />
+      <point x="40.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.BMW" target="com.weimin.desiginpattern.factory.method.Car">
+      <point x="0.0" y="-25.5" />
+      <point x="-268.5" y="-161.0" />
+      <point x="-66.68181818181819" y="-161.0" />
+      <point x="-53.75" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.BMWFactory" target="com.weimin.desiginpattern.factory.method.BMW">
+      <point x="-54.0" y="-25.5" />
+      <point x="-249.08333333333331" y="-45.0" />
+      <point x="-268.5" y="-45.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.Benz" target="com.weimin.desiginpattern.factory.method.Car">
+      <point x="0.0" y="-25.5" />
+      <point x="63.5" y="-141.0" />
+      <point x="-2.181818181818187" y="-141.0" />
+      <point x="10.75" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.MethodFactoryTest" target="com.weimin.desiginpattern.factory.method.BenzFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="63.5" y="56.0" />
+      <point x="56.78787878787881" y="56.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.BMWFactory" target="com.weimin.desiginpattern.factory.method.CarFactory">
+      <point x="54.0" y="-25.5" />
+      <point x="-141.08333333333331" y="-45.0" />
+      <point x="-142.5" y="-45.0" />
+      <point x="-40.5" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.MethodFactoryTest" target="com.weimin.desiginpattern.factory.method.BMWFactory">
+      <point x="-61.33333333333337" y="-25.5" />
+      <point x="2.1666666666666288" y="56.0" />
+      <point x="-195.08333333333331" y="56.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.BenzFactory" target="com.weimin.desiginpattern.factory.method.Car">
+      <point x="54.0" y="-25.5" />
+      <point x="110.78787878787881" y="-45.0" />
+      <point x="141.25" y="-45.0" />
+      <point x="141.25" y="-151.0" />
+      <point x="19.318181818181813" y="-151.0" />
+      <point x="32.25" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.BenzFactory" target="com.weimin.desiginpattern.factory.method.Benz">
+      <point x="0.0" y="-25.5" />
+      <point x="56.78787878787881" y="-45.0" />
+      <point x="63.5" y="-45.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.CarFactory" target="com.weimin.desiginpattern.factory.method.Car">
+      <point x="0.0" y="-25.5" />
+      <point x="-102.0" y="-141.0" />
+      <point x="-23.681818181818187" y="-141.0" />
+      <point x="-10.75" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.BMWFactory" target="com.weimin.desiginpattern.factory.method.Car">
+      <point x="0.0" y="-25.5" />
+      <point x="-195.08333333333331" y="-45.0" />
+      <point x="-193.5" y="-45.0" />
+      <point x="-193.5" y="-151.0" />
+      <point x="-45.18181818181819" y="-151.0" />
+      <point x="-32.25" y="25.5" />
+    </edge>
+    <edge source="com.weimin.desiginpattern.factory.method.MethodFactoryTest" target="com.weimin.desiginpattern.factory.method.Car">
+      <point x="61.33333333333333" y="-25.5" />
+      <point x="124.83333333333331" y="56.0" />
+      <point x="162.90151515151513" y="56.0" />
+      <point x="162.90151515151513" y="-161.0" />
+      <point x="40.81818181818181" y="-161.0" />
+      <point x="53.75" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="34.5" y="14.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
